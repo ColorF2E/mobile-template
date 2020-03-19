@@ -1,0 +1,14 @@
+<div class="login">
+    <div class="logo">
+        <img src="../../../static/logo.png" />
+    </div>
+    <div class="login-form">
+        <div class="md-example-child md-example-child-input-item-2">
+            <md-field>
+                <md-input-item title="手机号" type="phone" v-model="supplier_person_phone" placeholder="请输入手机号码"></md-input-item>
+                <md-input-item title="密码" type="password" v-model="password" placeholder="请输入密码"></md-input-item>
+            </md-field>
+        </div>
+        <md-button type="primary" class="login-btn commit-btn" @click="login">登录</md-button>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+@import './reset.scss',
+    './common.scss';
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    background: #F7FAFF;
+    color: #141414;
+}
+
+i {
+    display: inline-block;
+    font-style: normal;
+    background-size: contain;
+    vertical-align: middle;
+}
+a {
+    text-decoration:none; 
+    color:#26a2ff;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #CFD0D1;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #CFD0D1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #CFD0D1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #CFD0D1;
+}

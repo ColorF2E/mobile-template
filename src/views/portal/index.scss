@@ -1,0 +1,37 @@
+.portal {
+    height: 100%;
+    
+    .mint-tabbar {
+        background-color: #2B2A31;
+
+        & .mint-tab-item {
+            color: #7E7F80;
+            position: relative;
+
+            .tab-home-icon {
+                width: 25px;
+                height: 25px;
+            }
+            .tab-msg-icon {
+                width: 25px;
+                height: 25px;
+            }
+            .tab-my-icon {
+                width: 25px;
+                height: 25px;
+            }
+
+            &.is-selected {
+                background-color: transparent;
+                color: #fff;
+
+                .tab-home-icon {
+                }
+                .tab-msg-icon {
+                }
+                .tab-my-icon {
+                }
+            }
+        }
+    }
+}
