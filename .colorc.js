@@ -8,7 +8,7 @@ const resolve = (dir) => {
 var proxy_url = 'http://erp.ishangzu.com'
 
 module.exports = {
-    href: 'mand-test.tianque.com',
+    href: 'mobile.tianque.com',
     port: 8084,
     proxy: {
         '/isz_base': {

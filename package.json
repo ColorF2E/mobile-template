@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "brown-http": "0.0.3",
-    "mand-mobile": "^2.2.2",
+    "mand-mobile": "^2.5.9",
     "vue": "^2.2.0",
     "vue-router": "^2.7.0",
     "vuex": "^2.1.1",
